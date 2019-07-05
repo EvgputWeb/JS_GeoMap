@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Geo Map</title>
+        <script src="https://api-maps.yandex.ru/2.1/?apikey=c9de3cfc-7e5b-42f0-ba2e-6e1cbb27067c&lang=ru_RU" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <div id="ymaps"></div>
+
+        <!-- - - - - - - - - -  - - - - -  - - -  -->
+        <div id="review" class="hidden">
+            <div id="popup-header">
+                Address
+                <div id="close-popup">&#215;</div>
+            </div>
+            <div id="popup-content">
+            </div>
+            <form id="popup-form" method="POST">
+                <h3>Ваш отзыв</h3>
+                <input name="name" type="text" placeholder="Ваше имя">
+                <input name="place" type="text" placeholder="Укажите место">
+                <textarea name="comment" placeholder="Поделитесь впечатлениями"></textarea>
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+        <!-- - - - - - - - - -  - - - - -  - - -  -->
+
+
+    </body>
+</html>
